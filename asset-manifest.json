@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BIM-CALC-React-App/static/css/main.bb1e39f4.css",
+    "main.js": "/BIM-CALC-React-App/static/js/main.64a0d77e.js",
+    "index.html": "/BIM-CALC-React-App/index.html",
+    "main.bb1e39f4.css.map": "/BIM-CALC-React-App/static/css/main.bb1e39f4.css.map",
+    "main.64a0d77e.js.map": "/BIM-CALC-React-App/static/js/main.64a0d77e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb1e39f4.css",
+    "static/js/main.64a0d77e.js"
+  ]
+}
