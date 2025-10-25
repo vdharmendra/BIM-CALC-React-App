@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# 🧮 BIM-CALC | React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**BIM-CALC** is a modern, interactive calculator built using **React.js**, designed for **Building Information Modeling (BIM)** professionals, engineers, and architects.  
+It provides an intuitive interface to perform construction-related calculations quickly and accurately.
 
-## Available Scripts
+---
+## View Project ##
+<a href="https://vdharmendra.github.io/BIM-CALC-React-App/">View Project on browser</a>
 
-In the project directory, you can run:
+- 
+👨‍💻 Author
+Virendra D. Verma
+<a href="https://www.linkedin.com/in/dharmendraverma95/" target="_blank">🧑‍💻 LinkedIn Profile </a> | <a href="https://www.behance.net/dhirukumar" target="_blank">🧑‍💻 Behance Profile </a>
 
-### `npm start`
+- 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Features
 
-### `npm test`
+- ⚛️ Built with **React.js** (functional components & hooks)
+- 🧩 Modular structure for scalable development
+- 📊 Handles real-time input and output updates
+- 💾 Optional local storage for saving last calculation
+- 🎨 Responsive and user-friendly UI
+- 🧠 Accurate mathematical operations (using JS or custom logic)
+- 🌗 Optional dark/light mode toggle
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React.js |
+| Language | JavaScript (ES6+) |
+| Styling | CSS / SCSS / TailwindCSS |
+| Routing | React Router DOM (if multipage) |
+| Deployment | GitHub Pages / Netlify / Vercel |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 🧮 BIM-CALC | React App
 
-### `npm run eject`
+**BIM-CALC** is a modern, interactive calculator built using **React.js**, designed for **Building Information Modeling (BIM)** professionals, engineers, and architects.  
+It provides an intuitive interface to perform construction-related calculations quickly and accurately.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- ⚛️ Built with **React.js** (functional components & hooks)
+- 🧩 Modular structure for scalable development
+- 📊 Handles real-time input and output updates
+- 💾 Optional local storage for saving last calculation
+- 🎨 Responsive and user-friendly UI
+- 🧠 Accurate mathematical operations (using JS or custom logic)
+- 🌗 Optional dark/light mode toggle
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React.js |
+| Language | JavaScript (ES6+) |
+| Styling | CSS / SCSS / TailwindCSS |
+| Routing | React Router DOM (if multipage) |
+| Deployment | GitHub Pages / Netlify / Vercel |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🧩 Folder Structure
+BIM-CALC-React-App/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── Calculator.jsx
+│   │   ├── Display.jsx
+│   │   ├── Buttons.jsx
+│   │   └── Navbar.jsx
+│   │
+│   ├── pages/ (optional)
+│   │   └── About.jsx
+│   │
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── utils/
+│       └── calculations.js
+│
+├── package.json
+└── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧩 package.json Changes
 
-### Analyzing the Bundle Size
+Add the following lines to your package.json file:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+"homepage": "https://vdharmendra.github.io/BIM-CALC-React-App/",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 
-### Making a Progressive Web App
+## 🚀 Deploy the App
+npm run deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### After the build and deployment complete, your site will be available at:
+👉 https://vdharmendra.github.io/BIM-CALC-React-App/
